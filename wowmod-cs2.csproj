@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultItems>false</EnableDefaultItems>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.337" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Source\**\*.cs" />
+    <Compile Include="WarcraftCS2\**\*.cs" />
+    <Compile Include="RPG\**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="WarcraftCS2\Spells\**\*.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
