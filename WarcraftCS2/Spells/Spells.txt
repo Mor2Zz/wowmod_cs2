@@ -1,0 +1,21 @@
+# Warrior
+warrior.battle_shout=Боевой клич: +броня (каркас; можно заменить на -% входящего урона)
+warrior.whirlwind=Вихрь клинков: AoE вокруг (добавим урон по радиусу)
+warrior.hamstring=Hamstring: замедление цели на 4с (через Buffs)
+warrior.mortal_strike=Mortal Strike: мощный удар (демо)
+warrior.charge=Charge: рывок вперёд ~120u
+warrior.bladestorm=Bladestorm: вихрь 4с (через Buffs, AoE добавим)
+
+# Paladin
+paladin.heal=Свет: мгновенно лечит на 35 HP (до 120)
+paladin.divine_shield=Божественный щит: иммунитет к урону 3с
+paladin.freedom=Freedom: снимает замедления и даёт иммун к торможениям 3с
+paladin.judgement=Judgement: правосудие (демо-удар)
+paladin.holy_shock=Holy Shock: лёгкий мгновенный хил (демо)
+paladin.lay_on_hands=Lay on Hands: сильное исцеление (до 120 HP)
+
+# Mage
+mage.blink=Blink: рывок вперёд ~180u
+mage.frostbolt=Frostbolt: небольшой урон + замедление 3с (через Buffs)
+mage.ice_block=Ice Block: иммунитет 3с
+mage.arcane_missiles=Arcane Missiles: демо (+броня) — позже настоящие снаряды
